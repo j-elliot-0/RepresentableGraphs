@@ -4,9 +4,13 @@
 Word-representable graphs
 
 A graph G = (V, E) is word-representable if there exists a word w over V such that x and y alternate in w if and only if (x,y) is in E. A comprehensive introduction to the theory of word-representable graphs is given in the book "Words and Graphs" by Sergey Kitaev and Vadim Lozin published by Springer. For a brief and clear introduction to the subjct, see "A Comprehensive Introduction to the Theory of Word-Representable Graphs" by Kitaev published in the Lecture Notes in Computer Science 10396:
+
 http://personal.strath.ac.uk/sergey.kitaev/Papers/wrg-kitaev.pdf
+
 Alternatelve, see the Wikipedia page giving basic information on the theory and its generalizations:
+
 https://en.wikipedia.org/wiki/Word-representable_graph
+
 A key result in the theory of word-representable graphs is the theorem stating that a graph is word-representable if and only if it admits a semi-transitive orientation.
 
 This user-friendly program to work with word-representability of graphs was written around 2014-15, is based on the notion of a semi-transitive orientation. This program presents a graph in matrix form on the left, and in graphical form on the right. Edges are added/removed by clicking on the appropriate entry in the matrix. The program presents the following functionality:
